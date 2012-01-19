@@ -1,3 +1,4 @@
+%loads file.
 benz = load('benzene.xyz')
 
 %saves in variable 'masses' the first column of benz
