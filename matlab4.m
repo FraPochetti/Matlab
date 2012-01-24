@@ -39,6 +39,12 @@ benz_rot = zeros(12,3);
 %cm stands for centre of mass, which is a 3x1 array.
 cm = zeros(3,1);
 
+
+%EVIDENTLY ONLY AFTER HAVING FINISHED THIS EXERCISE I CAME ACROSS A FUNCTION CALLED dot
+%WHICH COMPUTES THE DOT PRODUCT BETWEEN TWO VECTORS. HAD IT CROSSED MY MIND EARLIER,
+%IT COULD HAVE ORRIBLY SIMPLIFIED THE FOLLOWING CODE... -_-
+
+
 %computes the centre of mass using first untouched coordinates (sum is a
 %function which sums the components of a vector, in this case the first
 %column of benz, or better the atomic masses), and in the same for
